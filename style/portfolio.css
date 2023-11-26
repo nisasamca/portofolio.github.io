@@ -147,10 +147,11 @@ main {
     }
     
 
-    footer{
+    .footer{
         display: flex;
         justify-content: center;
         background-color: #DA0C81;
+        width: 100%;
         
     } 
     .home {
@@ -195,10 +196,13 @@ main {
     }
     
 
-    footer{
+    .footer{
         display: flex;
         justify-content: center;
         background-color: #DA0C81;
+        width: 100%;
+        position: fixed;
+        align-items: center;
         
     } 
     .home {
@@ -219,5 +223,4 @@ main {
     }
 }
 
-    
 
