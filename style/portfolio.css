@@ -194,6 +194,9 @@ main {
         align-items: center;
         z-index: 100;
     }
+    body{
+        background-color: #D4ADFC;
+    }
     
 
     .footer{
@@ -207,9 +210,9 @@ main {
     } 
     .home {
         position: relative;
-        width: 85vh;
+        width: 100%;
         justify-content: space-between;
-        height: 100vh;
+        height: 170vh;
         align-items: center;
         padding: 70px 10px 0;
         background-color: #D4ADFC;
@@ -218,9 +221,18 @@ main {
        
     }
     .gambar img{
-        height: 45px;
-        width: 45px;
+        height: 300px;
+        width: 300px;
+        margin-top:80px;
+        margin-right: 50px;
+        margin-left: 10px;
     }
+    .content {
+        max-width: 400px; 
+        padding-left: 20px;
+        margin-bottom: 110px;
+        margin-left: 80px;
 }
 
 
+}
