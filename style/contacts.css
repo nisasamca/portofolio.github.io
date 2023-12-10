@@ -1,5 +1,14 @@
 * {
-    background-image: url(owalah.jpg);
+    background-color: aliceblue;
     width: 10px;
     height: 10px;
+}
+@media only screen and ( max-width :767px) {
+
+    element.style {
+    height: 90px;
+   margin-right: 20px;
+    padding: 10px;
+
+    }
 }
